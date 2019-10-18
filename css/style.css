@@ -82,3 +82,25 @@ background-color: #cbe2c1;
 	font-weight: bold;
 	color: #1A883E;
 }
+@media screen and (max-width: 767px) {
+	#first{
+		padding-left: 150px!important;
+	}
+	#third {
+    margin-left: 150px!important;
+  }
+  	#backtomain{
+  	display: none;
+  }
+}
+/*@media screen and (min-width: 791px) {
+	#first{
+		padding-left: 300px!important;
+	}
+	#third {
+    margin-left: 150px!important;
+  }
+  	#backtomain{
+  	display: none;
+  }
+}*/
