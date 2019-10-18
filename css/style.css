@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.left{
+float: left;
+margin: 0 auto;
+padding: 5px;
+margin-bottom: 20px;
+}
+.borders{
+	border-radius: 20px;
+	border:2px solid #0E69B1;
+	margin: 15px 0px;
+	padding: 10px;
+}
+.sizer{
+	height: 550px;
+	overflow: auto;
+}
+.mt-s{
+	margin-top: 32px;
+}
+.clearfixr
+	clear: both;
+}
+.moving{
+  animation: moving ease-in-out 1s infinite alternate;
+}
+
+@keyframes moving {
+    to { 
+      transform: translateX(-7px);
+     }
+}
+textarea {
+   resize: none;
+   appearance: textfield;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.padtop{
+	padding-top: 15px;
+}
+.padleft{
+	padding-left: 50px;
+}
+.padright{
+	padding-right: 160px;
+}
+.catid{
+	color: #0E69B1;
+	font-weight: bold;
+	
+}
+.shadow{
+	box-shadow:  1px 1px 3px 3px rgb(14, 105, 177);
+}
+.h3color{
+	color: #0E69B1;
+	font-weight: bold;
+}
+.btn-info{
+	background-color: #1A883E;
+}
+.btn-info:hover{
+	background-color: #0E69B1;
+}
+.table .thead-dark th{
+	background-color: #1A883E;
+	border:1px solid #0E69B1;
+}
+.jumbotron{
+background-color: #cbe2c1;
+}
+.bolder{
+	font-weight: bold;
+	color: #1A883E;
+}
