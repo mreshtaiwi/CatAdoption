@@ -29,19 +29,21 @@
   	 </div>
 	   <div class="row-fluid jumbotron borders">
 	   	 <div id="catgrid" class="row"></div>
-	  		<form class="mb-4">
+	   	 <div>
+	   	 	<!-- <form action = "<?php $_PHP_SELF ?>" method = "POST"> -->
+	   	 	<form class="mb-4">
 				  <div class="form-row ml-2">
 				    <div class="col-md-2 mb-3">
 				      <label for="validationDefault01" class="ml-1 h3color">First name</label>
-				      <input type="text" maxlength="15" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+				      <input type="text" maxlength="15" class="form-control" id="validationDefault01" placeholder="First name" value="" required name="fname">
 				    </div>
 				    <div class="col-md-2 mb-3">
 				      <label for="validationDefault02" class="ml-1 h3color">Last name</label>
-				      <input type="text" maxlength="15" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+				      <input type="text" maxlength="15" class="form-control" id="validationDefault02" placeholder="Last name" value="" required name="lname">
 				    </div>
 				    <div class="col-md-2 mb-3">
 				      <label for="validationDefault03" class="ml-1 h3color">City</label>
-				      <select id="inputState" class="form-control">
+				      <select id="inputState" class="form-control" name="city">
 				        <option selected>Amman</option>
 				        <option>Irbid</option>
 				        <option>Zarqa</option>
@@ -52,15 +54,18 @@
 				    </div>
 				    <div class="col-md-2 mb-3">
 				      <label for="validationDefault04" class="ml-1 h3color">Street</label>
-				      <input type="text" maxlength="15" class="form-control" id="validationDefault04" placeholder="Street" required>
+				      <input type="text" maxlength="15" class="form-control" id="validationDefault04" placeholder="Street" required name="street">
 				    </div>
 				    <div class="col-md-2 mb-3">
 				      <label for="validationDefault05" class="ml-1 h3color">Cat ID</label>
-				      <input type="text" maxlength="15" class="form-control" id="validationDefault05" placeholder="Cat ID" required>
+				      <input type="text" maxlength="15" class="form-control" id="validationDefault05" placeholder="Cat ID" required name="catid">
 				    </div>
 				  </div>
+				   <!-- <button class="btn btn-info ml-3" type="button">Adopt Cat <i class="fas fa-cat"></i></button> -->
 				   <button class="btn btn-info ml-3" type="submit">Adopt Cat <i class="fas fa-cat"></i></button>
 			</form>
+	   	 </div>
+	  		
 	   </div>
   </body>
 </html>
